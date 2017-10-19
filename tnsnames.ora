@@ -1,0 +1,40 @@
+NFGL=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST =78.12.73.44)(PORT=1521))
+    )
+    (CONNECT_DATA =
+      (SID = nfptdb1)
+     )
+  )
+
+wtkf=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST =78.20.141.5)(PORT=1521))
+    )
+    (CONNECT_DATA =
+      (SID = wtkf)
+     )
+  ) 
+
+shstcxff=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST =78.12.64.32)(PORT=1521))
+    )
+    (CONNECT_DATA =
+      (SID = shstcxff)
+     )
+  )  
+
+dsfgx1=
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST =78.12.200.40)(PORT=1521))
+    )
+    (CONNECT_DATA =
+      (SID = dsfgx1)
+     )
+  ) 
+
