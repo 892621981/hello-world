@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SBX {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÇëÊäÈë¸öÊý:");
+		System.out.print("è¯·è¾“å…¥ä¸ªæ•°:");
 		int i = sc.nextInt();
 		function1(i);
 	}
@@ -27,7 +27,7 @@ public class SBX {
 			}
 			System.out.println();
 		}
-		//ÏÂ°ë²¿·Ö
+		//ï¿½Â°ë²¿ï¿½ï¿½
 		for (int i = n-2; i >= 1; i-=2) {
 			for (int k = 1; k <= n; k+=2) {
 				if(i < k){
