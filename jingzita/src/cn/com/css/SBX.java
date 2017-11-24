@@ -7,10 +7,10 @@ public class SBX {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("请输入个数:");
 		int i = sc.nextInt();
-		function1(i);
+		function(i);
 	}
 	
-	public static void function1(int n){
+	public static void function(int n){
 		if(n%2 == 0){
 			n = n-1;
 		}
@@ -26,8 +26,8 @@ public class SBX {
 				}
 			}
 			System.out.println();
-		}
-		//�°벿��
+		} 
+		//下半部分
 		for (int i = n-2; i >= 1; i-=2) {
 			for (int k = 1; k <= n; k+=2) {
 				if(i < k){
