@@ -14,6 +14,7 @@ public class SBX {
 		if(n%2 == 0){
 			n = n-1;
 		}
+		//上半部分
 		for (int i = 1; i <= n; i+=2) {
 			for (int k = 1; k <= n; k+=2) {
 				if(i < k){
