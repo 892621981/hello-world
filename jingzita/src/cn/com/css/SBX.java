@@ -3,8 +3,10 @@ package cn.com.css;
 import java.util.Scanner;
 
 public class SBX {
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.print("请输入个数:");
 		int i = sc.nextInt();
 		function(i);
