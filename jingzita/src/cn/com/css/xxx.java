@@ -6,6 +6,6 @@ public class xxx {
 	}
 	
 	public static void function(){
-		
+		System.out.println("function run");
 	}
 }
